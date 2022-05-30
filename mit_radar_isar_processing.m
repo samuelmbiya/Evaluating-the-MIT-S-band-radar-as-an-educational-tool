@@ -179,11 +179,11 @@ CPI = no_pulses_to_consider*(Tp*2); disp([ 'CPI = ' num2str(CPI) ' s']);%s
 
 small_integration_angle = CPI*angular_velocity;disp(['Integration angle = ' num2str(rad2deg(small_integration_angle)) ' deg']);%rad
 
-% Generate ISAR image                                                                        
+% Generate multiple ISAR images                                                                        
 
 total_num_pulses = size(z,1); disp(['Total number of pulses = ' num2str(total_num_pulses)]);                                               
 num_frames = round((total_num_pulses - no_pulses_to_consider)/(no_pulses_to_consider/2))-1; disp(['Number of frames = ' num2str(num_frames)]);       
- 
+
 for count_frames = 1:num_frames                                      
     N = (count_frames-1)*no_pulses_to_consider/2; 
 	
