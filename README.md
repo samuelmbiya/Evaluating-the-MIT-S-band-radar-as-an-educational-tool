@@ -5,7 +5,7 @@ This code repository contains the code that was written to perform ISAR imaging 
 
 - mit_radar_isar_processing.m contains the code used for signal processing and ISAR image processing.
 
--mit_radar_generate_isar_image.m calls mit_radar_isar_processing and allows a user to set the recorded radar data.
+- mit_radar_generate_isar_image.m calls mit_radar_isar_processing and allows a user to set the recorded radar data.
 
 ## Instructions:
 
