@@ -7,7 +7,7 @@ This code repository contains the code that was written to perform ISAR imaging 
 
 - mit_radar_generate_isar_image.m calls mit_radar_isar_processing files and allows a user to import the recorded radar dataset.
 
-- The datasets folder contains a test dataset that was used
+- The datasets folder contains sample test data from the dataset that was used.
 
 ## Instructions:
 
