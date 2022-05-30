@@ -1,6 +1,7 @@
 function [] = mit_radar_isar_processing(wavFile)
 
 % Author: Samuel Mbiya
+%
 % Contributions: Gregory Charvat wrote the original code for signal processing and the generation
 % of range vs time plots for the Lincoln Laboratory MIT IAP Radar Course
 %
