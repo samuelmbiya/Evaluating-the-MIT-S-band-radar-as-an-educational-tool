@@ -21,6 +21,8 @@ fStart = 2350e6;%Hz) LFM start frequency
 fStop = 2530e6;%(Hz) LFM stop frequency
 maxRange = 5;%(m) maximum range to display 
 
+% constants
+
 c = 299e6; % (m/s) speed of light
 Tp = 10e-3; % (s) minimum pulse length
 
