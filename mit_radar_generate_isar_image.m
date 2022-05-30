@@ -28,4 +28,4 @@ All_ISAR_wav_recordings = {'1_corner_reflectors_1m_downrange_slow_FMCW_test2.wav
 % Read in the recording
 ISAR_recording_no = 1;
 
-mit_radar_isar_processing(All_ISAR_wav_recordings(ISAR_recording_no)); 
+mit_radar_isar_processing(All_ISAR_wav_recordings{ISAR_recording_no}); 
