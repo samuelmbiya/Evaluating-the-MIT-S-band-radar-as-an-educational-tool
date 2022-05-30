@@ -1,4 +1,4 @@
-function [] = mit_radar_isar(wavFile)
+function [] = mit_radar_isar_processing(wavFile)
 
 % Author: Samuel Mbiya
 % Contributions: Gregory Charvat wrote the original code for signal processing and the generation
