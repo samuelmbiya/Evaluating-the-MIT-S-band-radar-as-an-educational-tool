@@ -17,6 +17,9 @@ function [] = mit_radar_isar_processing(wavFile)
 % fStop = LFM stopping frequency (H)
 % maxRange = maximum range to display in ISAR image
 
+turn_table_speed = 3.635; %rpm
+                    % 3.635 (slow); %rpm changes depending on dataset and speed setting
+                    % 6.46  (fast) 
 fStart = 2350e6;%Hz) LFM start frequency 
 fStop = 2530e6;%(Hz) LFM stop frequency
 maxRange = 5;%(m) maximum range to display in the ISAR image
