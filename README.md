@@ -11,6 +11,8 @@ This code repository contains the code that was written to perform Inverse Synth
 
 - The final_code folder contains a modified version of the code that should be run.
 
+- The final_report folder contains the final research report that was written.
+
 ## Instructions to run code:
 
 To successfully execute the ISAR image generating code:
