@@ -1,5 +1,5 @@
 # Evaluating the MIT S-band radar as an educational tool
-This code repository contains the code that was written to perform Inverse Synthetic Aperture Radar (ISAR) imaging usng the MIT S-band radar in FMCW mode. This was written for the ISAR demonstrator phase of the final year project.
+This code repository contains the code that was written to perform Inverse Synthetic Aperture Radar (ISAR) imaging using the MIT S-band radar in FMCW mode. This was written for the ISAR demonstrator phase of the final year project.
 
 ## Repository information:
 
