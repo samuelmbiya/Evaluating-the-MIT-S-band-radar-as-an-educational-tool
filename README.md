@@ -5,6 +5,28 @@ This code repository contains the code that was written to perform Inverse Synth
 
 This project came about from the goal of incorporating the coffee can radar into the Radar masters course at the University of Cape Town, to allow students to collect radar data using a low cost and educational radar. The project was divided into three phases: the first phase involved developing and conducting low frequency subsystem and integration tests to determine whether the radar was functioning correctly. The second phase involved conducting indoor and outdoor experiments to demonstrate the radar’s capabilities to measure target range and velocity. The last phase of the project involved designing an Inverse Synthetic Aperture Radar (ISAR) imaging demonstrator using the radar. It was found that the radar system functioned mostly as expected on a subsystem level. The results from the experiments showed that the radar could measure the speed of targets and distinguish between a human target walking, jogging and sprinting. The maximum range of the radar was found to be between 30 - 50 m for human targets. Lastly, the radar was found capable to be utilised for Inverse Synthetic Aperture Radar imaging in the educational context and was able to generate low-resolution images of corner reflector targets in motion. This addressed a gap in the literature on the use cases of the radar for ISAR imaging. During each phase of the project, it was observed that the radar possessed educational value in terms of electronics, radar applications and system design.
 
+### Radar system design
+
+![Alt text](img/Full_system_labelled.JPG)
+
+The coffee can radar
+
+![Alt text](img/RF_subsystem.JPG)
+
+The RF transmit and receive chain
+
+### Experment setup
+
+![Alt text](img/1m_slant_range.jpg)
+
+Two-corner reflector targets positioned 1 meter away from radar, separated in cross-range by 1 meter
+
+### Results
+
+![Alt text](img/Slow_Slantrange_1_Crossrange_0.5_CR_2.png)
+
+The resulting ISAR image of the two-corner reflector targets
+
 ## Repository information:
 
 - mit_radar_isar_processing.m contains the code used for signal processing and ISAR image processing.
